@@ -26,7 +26,7 @@ const Button = ({
             type={type}
             onClick={onClick}
             disabled={disabled}
-            className={`h-11 rounded-md bg-primary text-sm font-medium text-white ${variants[variant]} disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer`}
+            className={`h-12 rounded-md bg-primary text-sm font-medium text-white ${variants[variant]} disabled:cursor-not-allowed disabled:opacity-50 cursor-pointer`}
         >
             {children}
         </button>
